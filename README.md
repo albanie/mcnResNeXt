@@ -1,6 +1,6 @@
 ## ResNeXt
 
-This directory contains code to import and evaluate ResNeXt models
+This directory contains code to import and evaluate some of the ResNeXt models
 described in the [paper](https://arxiv.org/abs/1611.05431):
 
 ```
