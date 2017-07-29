@@ -1,7 +1,7 @@
 function run_resnext_benchmarks
 % do a single pass over the imagenet validation data
 
-gpus = [3] ;
+gpus = 3 ;
 batchSize = 256 ;
 useCached = 1 ; % load results from cache if available
 
