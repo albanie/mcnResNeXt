@@ -28,3 +28,25 @@ The runtime speed of the models on a single Tesla M-40 GPU, together with their 
 
 The `demo_resnext.m` script gives an example of how to run a pre-trained model 
 on a single image.  The `core/run_resnext_benchmarks.m` will reproduce the table above (this requires a local copy of the imagenet dataset).
+
+
+### Dependencies
+
+`mcnResNext` requires the following two modules:
+
+* [autonn](https://github.com/vlfeat/autonn) - automatic differenation
+* [mcnExtraLayers](https://github.com/albanie/mcnExtraLayers) - extra MatConvNet layers
+
+Both of these can be setup directly with `vl_contrib` (i.e. run `vl_contrib install <module-name>` then `vl_contrib setup <module-name>`).
+
+### Installation
+
+The easiest way to use this module is to install it with the `vl_contrib` 
+package manager. `mcnSSD` can be installed with 
+the following commands from the root directory of your MatConvNet 
+installation:
+
+```
+vl_contrib('install', 'mcnResNeXt') ;
+vl_contrib('setup', 'mcnResNext') ;
+```
